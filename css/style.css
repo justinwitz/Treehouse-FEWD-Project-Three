@@ -153,7 +153,6 @@ input:-moz-placeholder { text-align:right; }
 
 input[type="text"],
 input[type="email"],
-input[type="number"],
 input[type="tel"],
 textarea,
 select {
@@ -171,7 +170,7 @@ select {
   margin-bottom: 30px;
 }
 
-input[type="zip"] {
+input[type="number"] {
   background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
@@ -211,8 +210,7 @@ form {
 	max-width: 700px;
 }
 
-input[type="zip"],
- {
+input[type="number"] {
   width: 50%;
 }
 
