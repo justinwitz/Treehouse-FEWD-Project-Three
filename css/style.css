@@ -62,19 +62,19 @@ legend {
   margin-bottom: 10px;
 }
 
-legend.newscheck {
+label.newscheck {
 	font-size: 1.2em;
 	font-weight: bold;
 	padding-bottom: 0;
 }
 
-legend.newsradio {
+label.newsradio {
 	font-size: 1.2em;
 	padding-top: 1em;
 	font-weight: 300;
 }
 
-legend.topics {
+label.topics {
 	font-size: 1.2em;
 	font-weight: 300;
 	padding-top: 15px;
@@ -140,13 +140,17 @@ input[type="tel"]:hover {
   border: 2px #242b33 solid;
 }
 
+input[type="zip"]:hover {
+  background-color: #b8f391;
+  border: 2px #242b33 solid;
+}
+
 /* webkit solution */
 ::-webkit-input-placeholder { text-align:right; }
 /* mozilla solution */
 input:-moz-placeholder { text-align:right; }
 
 input[type="text"],
-input[type="password"],
 input[type="email"],
 input[type="number"],
 input[type="tel"],
@@ -164,6 +168,22 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
+}
+
+input[type="zip"] {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  display: block;
 }
 
 footer {
@@ -190,15 +210,9 @@ form {
 	max-width: 700px;
 }
 
-.zipc {
-	display: block;
-	font-size: 0.875rem;
-	color: #484354;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	padding: 2px;
-	letter-spacing: 0.1em;
+input[type="zip"],
+ {
+  width: 50%;
 }
 
 }
