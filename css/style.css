@@ -89,7 +89,6 @@ label {
 label.labelstyle {
 	font-weight: 300;
 	display: inline;
-	
 }
 
 p {
@@ -124,6 +123,12 @@ button {
 	border: 15px solid #42afa6;
 	border-radius: 8px;
 	cursor: pointer;
+}
+
+button:hover {
+	background: #76c043;
+	border: 15px solid #76c043;
+	color: #fff;
 }
 
 input[type="text"]:hover, textarea:hover, select:hover, fieldset.elist:hover > legend {
@@ -186,6 +191,10 @@ input[type="number"] {
   display: block;
 }
 
+textarea {
+	height: 120px;
+}
+
 footer {
 	text-align: center;
 	color: lightgray;
@@ -210,12 +219,33 @@ form {
 	max-width: 700px;
 }
 
-input {
-	max-width: 80%;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 50%;
 }
 
 input[type="number"] {
-  width: 50%;
+  width: 30%;
+}
+
+label {
+    width: 50%;
+    float: left;
+}
+
+label.topics {
+	width: 80%;
+}
+
+label.newsradio {
+	width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	float: left;
 }
 
 }
