@@ -137,6 +137,11 @@ input[type="text"]:hover, textarea:hover, select:hover, fieldset.elist:hover > l
   border: 2px #242b33 solid;
 }
 
+input[type="text"]:focus, textarea:focus, select:focus, fieldset.elist:focus > legend {
+  background-color: #b8f391;
+  border: 2px #242b33 solid;
+}
+
 input[type="email"]:hover {
   background-color: #b8f391;
   border: 2px #242b33 solid;
@@ -150,6 +155,10 @@ input[type="tel"]:hover {
 input[type="zip"]:hover {
   background-color: #b8f391;
   border: 2px #242b33 solid;
+}
+
+input:focus { 
+    background-color: yellow;
 }
 
 /* webkit solution */
@@ -230,6 +239,11 @@ select {
 
 .label_main {
     width: 30%;
+    float: left;
+}
+
+.label_topics {
+    width: 50%;
     float: left;
 }
 

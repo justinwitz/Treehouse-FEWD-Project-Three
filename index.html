@@ -44,7 +44,7 @@
                 
                 <label  class="label_main" for="state">State</label>
                     <select id="state" name="state_select">
-                        <option value="choose state">Choose State</option>
+                        <!--<option value="choose state">Choose State</option>  I have this option removed, looking forward to the helpful tip from the Treehouse Teacher-->
                         <option value="alabama">Alabama</option>
                         <option value="alaska">Alaska</option>
                         <option value="arizona">Arizona</option>
@@ -103,15 +103,15 @@
                 <label class="newscheck">Newsletter</label><br>
                 <p class="selectnews">Select the newsletters you would like to receive</p>
                 
-                    <input type="checkbox" id="html" value="interest_html" name="user_htmlnews"><label class="labelstyle">HTML News</label><br>
-                    <input type="checkbox" id="css" value="interest_css" name="user_cssnews"><label class="labelstyle">CSS News</label><br>
-                    <input type="checkbox" id="javascript" value="interest_javascript" name="user_javascriptnews"><label class="labelstyle">Javascript News</label><br><br>
+                    <input type="checkbox" id="html" value="interest_html" name="user_htmlnews"><label class="labelstyle" for="html">HTML News</label><br>
+                    <input type="checkbox" id="css" value="interest_css" name="user_cssnews"><label class="labelstyle" for="css">CSS News</label><br>
+                    <input type="checkbox" id="javascript" value="interest_javascript" name="user_javascriptnews"><label class="labelstyle" for="javascript">Javascript News</label><br><br>
                 
                 <label class="newsradio">Newsletter format</label><br><br>
                     <input type="radio" id="htmlsel" value="html" name="news_format"><label for="htmlsel" class="labelstyle">HTML</label><br>
                     <input type="radio" id="plain_text" value="plain_text" name="news_format"><label for="plain_text" class="labelstyle">Plain Text</label><br><br>
           
-                <label class="label_main" class="topics">Other topics you'd like to hear about</label>
+                <label class="label_topics">Other topics you'd like to hear about</label>
                 <textarea id="topics" name="other_topics"></textarea>
                 
             </fieldset>
