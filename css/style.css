@@ -127,30 +127,26 @@ button:hover {
 	color: #fff;
 }
 
-input[type="text"]:hover, textarea:hover, select:hover, fieldset.elist:hover > legend {
-  background-color: #b8f391;
-  border: 2px #242b33 solid;
-}
-
 input[type="text"]:focus, textarea:focus, select:focus, fieldset.elist:focus > legend {
-  background-color: #b8f391;
-  border: 2px #242b33 solid;
+  background-color: orange;
+  border: 1px #242b33 solid;
 }
 
-input[type="email"]:hover {
-  background-color: #b8f391;
-  border: 2px #242b33 solid;
+input[type="email"]:focus, textarea:focus, select:focus, fieldset.elist:focus > legend {
+  background-color: orange;
+  border: 1px #242b33 solid;
 }
 
-input[type="tel"]:hover {
-  background-color: #b8f391;
-  border: 2px #242b33 solid;
+input[type="tel"]:focus, textarea:focus, select:focus, fieldset.elist:focus > legend {
+  background-color: orange;
+  border: 1px #242b33 solid;
 }
 
-input[type="zip"]:hover {
-  background-color: #b8f391;
-  border: 2px #242b33 solid;
+input[type="number"]:focus, textarea:focus, select:focus, fieldset.elist:focus > legend {
+  background-color: orange;
+  border: 1px #242b33 solid;
 }
+
 
 input:focus { 
     background-color: yellow;
